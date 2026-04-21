@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/font-4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: url(../fonts/font-5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/font-6.ttf) format('truetype');
+}

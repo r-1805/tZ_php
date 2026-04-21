@@ -1,0 +1,13 @@
+.git
+.gitignore
+.pytest_cache
+backend/.pytest_cache
+backend/**/__pycache__
+backend/**/*.pyc
+backend/storage/builds
+frontend/node_modules
+frontend/dist
+frontend/.vite
+frontend/tsconfig.app.tsbuildinfo
+WhiteOrder
+

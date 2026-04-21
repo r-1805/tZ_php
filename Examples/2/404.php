@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta charset="utf-8"><title>404 — Not Found</title><meta name="robots" content="noindex"><link rel="icon" href="favicon.ico"></head><body><h1>Page not found</h1><p><a href="index.php">Back to home</a></p></body></html>

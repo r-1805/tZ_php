@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8000"
+    restart: unless-stopped
+    volumes:
+      - app_builds:/app/backend/storage/builds
+
+volumes:
+  app_builds:
+

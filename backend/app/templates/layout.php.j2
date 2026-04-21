@@ -1,0 +1,87 @@
+<?php
+declare(strict_types=1);
+
+$e = static fn ($value): string => htmlspecialchars((string) $value, ENT_QUOTES, 'UTF-8');
+$site = $site ?? [];
+$page = $page ?? [];
+$company = $site['company'] ?? [];
+$nav = $site['nav'] ?? [];
+$legalLinks = $site['legal_links'] ?? [];
+?>
+<!DOCTYPE html>
+<html lang="<?= $e($site['html_lang'] ?? 'en') ?>">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><?= $e($page['title'] ?? '') ?></title>
+  <meta name="description" content="<?= $e($page['meta_description'] ?? '') ?>">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/legal.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <?php if (!empty($site['extra_head_html'])): ?>
+  <?= $site['extra_head_html'] ?>
+  <?php endif; ?>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="/index.php">
+        <span class="brand__mark"><?= $e($site['brand_initials'] ?? '') ?></span>
+        <span><?= $e($site['brand'] ?? '') ?></span>
+      </a>
+      <nav class="site-nav">
+        <?php foreach ($nav as $item): ?>
+        <a href="/<?= $e($item['file']) ?>"><?= $e($item['label']) ?></a>
+        <?php endforeach; ?>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <?php require $page['body_partial']; ?>
+  </main>
+  <footer class="site-footer">
+    <div class="shell site-footer__grid">
+      <section class="stack">
+        <h3><?= $e($site['brand'] ?? '') ?></h3>
+        <p class="muted"><?= $e($site['footer_blurb'] ?? '') ?></p>
+        <p class="muted">Copyright &copy; <?= $e($site['year'] ?? '') ?> <?= $e($site['brand'] ?? '') ?></p>
+      </section>
+      <section class="stack">
+        <h3><?= $e($site['contact_heading'] ?? '') ?></h3>
+        <p class="muted"><?= $e($company['address'] ?? '') ?></p>
+        <p><a href="mailto:<?= $e($company['email'] ?? '') ?>"><?= $e($company['email'] ?? '') ?></a></p>
+        <p><a href="tel:<?= $e($site['tel_href'] ?? '') ?>"><?= $e($company['phone'] ?? '') ?></a></p>
+        <p class="muted"><?= $e($company['hours'] ?? '') ?></p>
+      </section>
+      <section class="stack">
+        <h3><?= $e($site['legal_heading'] ?? '') ?></h3>
+        <?php foreach ($legalLinks as $item): ?>
+        <a href="/<?= $e($item['file']) ?>"><?= $e($item['label']) ?></a>
+        <?php endforeach; ?>
+      </section>
+    </div>
+  </footer>
+  <div id="cookie-banner">
+    <div class="cookie-card">
+      <strong><?= $e($site['cookie_title'] ?? '') ?></strong>
+      <p class="muted"><?= $e($site['cookie_text'] ?? '') ?></p>
+      <div class="cookie-actions">
+        <button type="button" data-cookie-accept><?= $e($site['cookie_accept'] ?? '') ?></button>
+        <a class="btn btn--secondary" href="/cookie-policy.php"><?= $e($site['cookie_link'] ?? '') ?></a>
+      </div>
+    </div>
+  </div>
+  <script src="/js/cookie.js"></script>
+  <script src="/js/navigation.js"></script>
+  <script src="/js/interactions.js"></script>
+  <script src="/js/site.js"></script>
+</body>
+</html>

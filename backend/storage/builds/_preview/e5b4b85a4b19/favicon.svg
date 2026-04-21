@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Tt">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c86b3c"/>
+      <stop offset="100%" stop-color="#7f3f22"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#g)"/>
+  <text x="32" y="39" text-anchor="middle" font-size="24" font-family="Segoe UI, sans-serif" font-weight="800" fill="#fff">T</text>
+</svg>

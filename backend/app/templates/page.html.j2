@@ -1,0 +1,51 @@
+{% extends "base.jinja2" %}
+{% block body %}
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="/index.php">
+        <span class="brand__mark">{{ brand_initials }}</span>
+        <span>{{ brand }}</span>
+      </a>
+      <nav class="site-nav">
+        {% for item in nav %}
+        <a href="/{{ item.file }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main>
+    {{ body_html | safe }}
+  </main>
+  <footer class="site-footer">
+    <div class="shell site-footer__grid">
+      <section class="stack">
+        <h3>{{ brand }}</h3>
+        <p class="muted">{{ footer_blurb }}</p>
+        <p class="muted">Copyright &copy; {{ year }} {{ brand }}</p>
+      </section>
+      <section class="stack">
+        <h3>{{ contact_heading }}</h3>
+        <p class="muted">{{ company.address }}</p>
+        <p><a href="mailto:{{ company.email }}">{{ company.email }}</a></p>
+        <p><a href="tel:{{ tel_href }}">{{ company.phone }}</a></p>
+        <p class="muted">{{ company.hours }}</p>
+      </section>
+      <section class="stack">
+        <h3>{{ legal_heading }}</h3>
+        {% for item in legal_links %}
+        <a href="/{{ item.file }}">{{ item.label }}</a>
+        {% endfor %}
+      </section>
+    </div>
+  </footer>
+  <div id="cookie-banner">
+    <div class="cookie-card">
+      <strong>{{ cookie_title }}</strong>
+      <p class="muted">{{ cookie_text }}</p>
+      <div class="cookie-actions">
+        <button type="button" data-cookie-accept>{{ cookie_accept }}</button>
+        <a class="btn btn--secondary" href="/cookie-policy.php">{{ cookie_link }}</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

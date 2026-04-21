@@ -1,0 +1,150 @@
+
+body {
+  font-family: var(--font-body);
+}
+.shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 0;
+}
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 14px;
+}
+.hero {
+  padding: 84px 0 56px;
+}
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 30px;
+  align-items: stretch;
+}
+.hero__main,
+.panel {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.hero__main {
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+}
+.hero__visual {
+  display: grid;
+  gap: 18px;
+}
+.hero__visual-card {
+  overflow: hidden;
+}
+.hero__visual-card img {
+  width: 100%;
+  border-radius: 18px;
+}
+.hero__support {
+  display: grid;
+  gap: 16px;
+}
+.hero__support .panel {
+  min-height: 0;
+}
+.section {
+  padding: 28px 0 20px;
+}
+.section--spacious {
+  padding: 52px 0 28px;
+}
+.section__header {
+  margin-bottom: 20px;
+}
+.section__eyebrow {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.copy {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.stack {
+  display: grid;
+  gap: 18px;
+}
+.grid-three {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.metrics-band {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+.split-feature {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 24px;
+  align-items: center;
+}
+.gallery-strip {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr 0.75fr;
+  gap: 18px;
+}
+.timeline {
+  display: grid;
+  gap: 14px;
+}
+.contact-shell {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+}
+.site-footer {
+  margin-top: 40px;
+  padding: 36px 0 56px;
+}
+.site-footer__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 24px;
+}
+@media (max-width: 920px) {
+  .hero__grid,
+  .copy,
+  .site-footer__grid,
+  .grid-three,
+  .grid-two,
+  .metrics-band,
+  .split-feature,
+  .gallery-strip,
+  .contact-shell {
+    grid-template-columns: 1fr;
+  }
+  .site-header__inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .hero__main {
+    padding: 28px;
+  }
+}

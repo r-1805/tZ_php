@@ -1,0 +1,11 @@
+<?php
+declare(strict_types=1);
+{% if is_404 %}
+http_response_code(404);
+{% endif %}
+$site = require __DIR__ . '/config/site.php';
+$page = json_decode(<<<'JSON'
+{{ page_payload }}
+JSON, true);
+$page['body_partial'] = __DIR__ . '/partials/{{ partial_file }}';
+require __DIR__ . '/includes/layout.php';

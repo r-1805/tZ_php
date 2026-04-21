@@ -1,0 +1,141 @@
+{
+  "build_id": "d3f7f50c2c5b",
+  "archive_name": "northpeakstudio-d3f7f50c2c5b.zip",
+  "archive_path": "E:\\учеба_работа\\TZ_PPHP\\backend\\storage\\builds\\northpeakstudio-d3f7f50c2c5b.zip",
+  "manifest_path": "E:\\учеба_работа\\TZ_PPHP\\backend\\storage\\builds\\d3f7f50c2c5b.json",
+  "created_at": "2026-04-18T08:52:04.643031Z",
+  "manifest": {
+    "build_id": "d3f7f50c2c5b",
+    "created_at": "2026-04-18T08:52:04.643031Z",
+    "spec": {
+      "theme": "news",
+      "language": "de",
+      "geo": "DE",
+      "domain": "northpeakstudio.com",
+      "seed": "alpha",
+      "legal_entity_name": null,
+      "manual_overrides": {
+        "phone": null,
+        "email": null,
+        "address": null,
+        "hours": null
+      },
+      "preview": true
+    },
+    "company": {
+      "brand": "northpeakstudio",
+      "brand_display": "Northpeakstudio",
+      "domain": "northpeakstudio.com",
+      "legal_entity_name": "Northpeakstudio GmbH",
+      "email": "contact@northpeakstudio.com",
+      "phone": "+49 40 423 1072",
+      "address": "81 Maximilianstraße, Munich, Bavaria 10115",
+      "hours": "Mo-Sa 09:00-19:00",
+      "social_handles": {
+        "linkedin": "northpeakstudio_linkedin",
+        "instagram": "northpeakstudio_instagram",
+        "facebook": "northpeakstudio_facebook"
+      }
+    },
+    "page_family": "services_projects",
+    "page_files": [
+      "404.php",
+      "about.php",
+      "apple-touch-icon.png",
+      "config/site.php",
+      "contact.php",
+      "cookie-policy.php",
+      "css/base.css",
+      "css/components.css",
+      "css/layout.css",
+      "css/legal.css",
+      "css/site.css",
+      "disclaimer.php",
+      "favicon-16x16.png",
+      "favicon-32x32.png",
+      "favicon.svg",
+      "fonts/",
+      "img/brand-mark.svg",
+      "img/contact-pattern.svg",
+      "img/footer-pattern.svg",
+      "img/hero-pattern.svg",
+      "includes/layout.php",
+      "index.php",
+      "js/cookie.js",
+      "js/interactions.js",
+      "js/navigation.js",
+      "js/site.js",
+      "legal-notice.php",
+      "manifest.json",
+      "partials/404.php",
+      "partials/about.php",
+      "partials/contact.php",
+      "partials/cookie-policy.php",
+      "partials/disclaimer.php",
+      "partials/index.php",
+      "partials/legal-notice.php",
+      "partials/privacy-policy.php",
+      "partials/projects.php",
+      "partials/services.php",
+      "partials/terms-of-service.php",
+      "privacy-policy.php",
+      "projects.php",
+      "services.php",
+      "site.webmanifest",
+      "terms-of-service.php"
+    ],
+    "language_label": "Deutsch",
+    "geo_label": "Germany",
+    "theme_label": "News",
+    "jurisdiction": "laws of Germany and, where required, directly applicable EU legislation",
+    "regulator": "competent German data protection supervisory authority",
+    "legal_pack_key": "de-DE",
+    "required_legal_docs": [
+      "privacy-policy.php",
+      "cookie-policy.php",
+      "terms-of-service.php",
+      "legal-notice.php",
+      "disclaimer.php"
+    ],
+    "title_pattern": "northpeakstudio",
+    "footer_brand": "northpeakstudio",
+    "export_ready": true,
+    "compliance_checks": [
+      {
+        "code": "required_legal_docs",
+        "status": "passed",
+        "detail": "All required legal documents are present."
+      },
+      {
+        "code": "placeholder_data",
+        "status": "passed",
+        "detail": "Company data is free of placeholder text."
+      },
+      {
+        "code": "internal_links",
+        "status": "passed",
+        "detail": "All internal links and asset references resolve inside the archive."
+      },
+      {
+        "code": "brand_consistency",
+        "status": "passed",
+        "detail": "Title pattern and footer brand stay consistent across generated pages."
+      },
+      {
+        "code": "localized_labels",
+        "status": "passed",
+        "detail": "Localized pages do not leak the known English UI labels."
+      },
+      {
+        "code": "duplicate_pages",
+        "status": "passed",
+        "detail": "Non-legal pages have distinct content bodies."
+      },
+      {
+        "code": "legal_pack",
+        "status": "passed",
+        "detail": "Legal pack de-DE is populated for the selected language and GEO."
+      }
+    ]
+  }
+}

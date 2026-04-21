@@ -1,0 +1,31 @@
+
+.legal-page,
+.error-page {
+  padding: 56px 0 24px;
+}
+.legal-page h2 {
+  margin-top: 28px;
+}
+.legal-page p,
+.card p,
+.copy p,
+.faq-item p {
+  margin: 0 0 14px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.legal-page ul {
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.contact-list {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.contact-list li {
+  line-height: 1.7;
+  color: var(--muted);
+}

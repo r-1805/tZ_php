@@ -1,0 +1,332 @@
+{
+  "families": {
+    "ABeeZee": {
+      "slug": "abeezee",
+      "files": [
+        {
+          "path": "library/abeezee/abeezee-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (16)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Archivo": {
+      "slug": "archivo",
+      "files": [
+        {
+          "path": "library/archivo/archivo-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (8)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/archivo/archivo-600.ttf",
+          "format": "truetype",
+          "weight": 600,
+          "source_dir": "1 — копия (8)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "DM Sans": {
+      "slug": "dm-sans",
+      "files": [
+        {
+          "path": "library/dm-sans/dm-sans-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/dm-sans/dm-sans-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (9)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Bold"
+        }
+      ]
+    },
+    "DM Serif Display": {
+      "slug": "dm-serif-display",
+      "files": [
+        {
+          "path": "library/dm-serif-display/dm-serif-display-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (12)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Fraunces": {
+      "slug": "fraunces",
+      "files": [
+        {
+          "path": "library/fraunces/fraunces-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия",
+          "source_file": "font-6.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Inter": {
+      "slug": "inter",
+      "files": [
+        {
+          "path": "library/inter/inter-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (15)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/inter/inter-500.ttf",
+          "format": "truetype",
+          "weight": 500,
+          "source_dir": "1 — копия (15)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/inter/inter-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (15)",
+          "source_file": "font-6.ttf",
+          "subfamily": "Bold"
+        }
+      ]
+    },
+    "Inter Tight": {
+      "slug": "inter-tight",
+      "files": [
+        {
+          "path": "library/inter-tight/inter-tight-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (8)",
+          "source_file": "font-6.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Josefin Sans": {
+      "slug": "josefin-sans",
+      "files": [
+        {
+          "path": "library/josefin-sans/josefin-sans-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (16)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Bold"
+        }
+      ]
+    },
+    "Lato": {
+      "slug": "lato",
+      "files": [
+        {
+          "path": "library/lato/lato-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (3)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Manrope": {
+      "slug": "manrope",
+      "files": [
+        {
+          "path": "library/manrope/manrope-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (20)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Bold"
+        },
+        {
+          "path": "library/manrope/manrope-800.ttf",
+          "format": "truetype",
+          "weight": 800,
+          "source_dir": "1 — копия (20)",
+          "source_file": "font-6.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Open Sans": {
+      "slug": "open-sans",
+      "files": [
+        {
+          "path": "library/open-sans/open-sans-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (9)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/open-sans/open-sans-500.ttf",
+          "format": "truetype",
+          "weight": 500,
+          "source_dir": "1 — копия (9)",
+          "source_file": "font-6.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/open-sans/open-sans-600.ttf",
+          "format": "truetype",
+          "weight": 600,
+          "source_dir": "1 — копия (18)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/open-sans/open-sans-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (7)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Bold"
+        },
+        {
+          "path": "library/open-sans/open-sans-800.ttf",
+          "format": "truetype",
+          "weight": 800,
+          "source_dir": "1 — копия (17)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Outfit": {
+      "slug": "outfit",
+      "files": [
+        {
+          "path": "library/outfit/outfit-500.ttf",
+          "format": "truetype",
+          "weight": 500,
+          "source_dir": "1 — копия (15)",
+          "source_file": "font-7.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/outfit/outfit-600.ttf",
+          "format": "truetype",
+          "weight": 600,
+          "source_dir": "1 — копия (8)",
+          "source_file": "font-7.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Plus Jakarta Sans ExtraBold": {
+      "slug": "plus-jakarta-sans-extrabold",
+      "files": [
+        {
+          "path": "library/plus-jakarta-sans-extrabold/plus-jakarta-sans-extrabold-800.ttf",
+          "format": "truetype",
+          "weight": 800,
+          "source_dir": "1 — копия (18)",
+          "source_file": "font-7.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    },
+    "Poppins": {
+      "slug": "poppins",
+      "files": [
+        {
+          "path": "library/poppins/poppins-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (12)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/poppins/poppins-500.ttf",
+          "format": "truetype",
+          "weight": 500,
+          "source_dir": "1 — копия (12)",
+          "source_file": "font-6.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/poppins/poppins-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (3)",
+          "source_file": "font-5.ttf",
+          "subfamily": "Bold"
+        }
+      ]
+    },
+    "Vollkorn": {
+      "slug": "vollkorn",
+      "files": [
+        {
+          "path": "library/vollkorn/vollkorn-600.ttf",
+          "format": "truetype",
+          "weight": 600,
+          "source_dir": "1 — копия (14)",
+          "source_file": "font-8.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/vollkorn/vollkorn-700.ttf",
+          "format": "truetype",
+          "weight": 700,
+          "source_dir": "1 — копия (9)",
+          "source_file": "font-7.ttf",
+          "subfamily": "Bold"
+        }
+      ]
+    },
+    "Work Sans": {
+      "slug": "work-sans",
+      "files": [
+        {
+          "path": "library/work-sans/work-sans-300.ttf",
+          "format": "truetype",
+          "weight": 300,
+          "source_dir": "1 — копия (6)",
+          "source_file": "font-4.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/work-sans/work-sans-400.ttf",
+          "format": "truetype",
+          "weight": 400,
+          "source_dir": "1 — копия (7)",
+          "source_file": "font-7.ttf",
+          "subfamily": "Regular"
+        },
+        {
+          "path": "library/work-sans/work-sans-500.ttf",
+          "format": "truetype",
+          "weight": 500,
+          "source_dir": "1 — копия (18)",
+          "source_file": "font-9.ttf",
+          "subfamily": "Regular"
+        }
+      ]
+    }
+  }
+}

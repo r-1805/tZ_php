@@ -1,0 +1,95 @@
+
+body {
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+}
+.shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 0;
+}
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 14px;
+}
+.hero {
+  padding: 72px 0 40px;
+}
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 28px;
+  align-items: stretch;
+}
+.hero__main,
+.panel {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.hero__main {
+  padding: 36px;
+}
+.hero__visual {
+  display: grid;
+  gap: 16px;
+}
+.hero__visual-card {
+  overflow: hidden;
+}
+.hero__visual-card img {
+  width: 100%;
+  border-radius: 18px;
+}
+.section {
+  padding: 28px 0 20px;
+}
+.section__header {
+  margin-bottom: 20px;
+}
+.copy {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.stack {
+  display: grid;
+  gap: 18px;
+}
+.grid-three {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.site-footer {
+  margin-top: 40px;
+  padding: 36px 0 56px;
+}
+.site-footer__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 24px;
+}
+@media (max-width: 920px) {
+  .hero__grid,
+  .copy,
+  .site-footer__grid,
+  .grid-three {
+    grid-template-columns: 1fr;
+  }
+  .site-header__inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

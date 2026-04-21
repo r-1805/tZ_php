@@ -1,0 +1,105 @@
+
+:root {
+  --bg: #f8eef2;
+  --surface: #eedbe3;
+  --accent: #b15576;
+  --accent-dark: #6d2c44;
+  --ink: #2f1c24;
+  --muted: #68515a;
+  --border: rgba(15, 23, 42, 0.12);
+  --radius: 22px;
+  --shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+}
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top right, rgba(255,255,255,0.96), transparent 32%),
+    radial-gradient(circle at left 20%, #b1557612, transparent 28%),
+    linear-gradient(180deg, var(--bg) 0%, #ffffff 58%, var(--surface) 100%);
+}
+.site-header {
+  background: rgba(255,255,255,0.86);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+  color: var(--ink);
+.brand__mark {
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.16);
+}
+.hero__main, .panel {
+  background: rgba(255,255,255,0.8);
+  border: 1px solid var(--border);
+}
+.hero__main::before {
+  content: "";
+  position: absolute;
+  inset: auto -40px -60px auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #b1557622, transparent);
+}
+.kicker {
+  background: rgba(255,255,255,0.8);
+  border: 1px solid rgba(15,23,42,0.1);
+  color: var(--accent-dark);
+}
+.lead {
+  color: var(--muted);
+}
+.btn--primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: white;
+}
+.btn--secondary {
+  background: rgba(255,255,255,0.85);
+  border-color: rgba(15,23,42,0.12);
+}
+.panel dt {
+  color: var(--muted);
+}
+.card {
+  background: rgba(255,255,255,0.86);
+  border: 1px solid var(--border);
+}
+.metric-card,
+.timeline__step,
+.showcase-quote {
+  background: rgba(255,255,255,0.86);
+  border: 1px solid var(--border);
+}
+.tag {
+  background: rgba(255,255,255,0.8);
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+.cta-banner {
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  color: white;
+  box-shadow: 0 22px 60px rgba(15,23,42,0.15);
+}
+.cta-banner p {
+  color: rgba(255,255,255,0.86);
+}
+.site-footer {
+  border-top: 1px solid var(--border);
+}
+.muted {
+  color: var(--muted);
+}
+#cookie-banner {
+}
+.cookie-card {
+  background: rgba(255,255,255,0.94);
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.18);
+}
+.cookie-actions {
+  margin-top: 14px;
+}
+.cookie-actions button {
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: white;
+}

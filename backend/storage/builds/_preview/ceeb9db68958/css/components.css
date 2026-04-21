@@ -1,0 +1,141 @@
+
+a {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+.brand__mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 14px;
+}
+.kicker {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.08;
+  margin: 0 0 16px;
+}
+h1 {
+  font-size: clamp(40px, 7vw, 68px);
+  max-width: 12ch;
+}
+h2 {
+  font-size: clamp(28px, 4vw, 40px);
+}
+h3 {
+  font-size: 22px;
+}
+.lead {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 60ch;
+}
+.actions,
+.tag-row,
+.cookie-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.actions {
+  margin-top: 24px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 18px;
+  min-height: 48px;
+  border-radius: 999px;
+  font-weight: 800;
+  border: 1px solid transparent;
+}
+.panel {
+  padding: 28px;
+}
+.panel dl {
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+.panel dt {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+.panel dd {
+  margin: 0;
+  font-size: 16px;
+}
+.card {
+  border-radius: 18px;
+  padding: 22px;
+}
+.faq-item {
+  padding: 18px 0;
+  border-top: 1px solid var(--border);
+}
+.faq-item:first-child {
+  border-top: 0;
+}
+.tag-row {
+  margin-top: 18px;
+}
+.tag-row--footer {
+  margin-top: 0;
+}
+.tag {
+  padding: 10px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+.cta-banner {
+  margin: 32px 0 12px;
+  border-radius: 26px;
+  padding: 28px;
+}
+.muted {
+  color: var(--muted);
+}
+#cookie-banner {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: min(420px, calc(100% - 32px));
+  z-index: 20;
+}
+.cookie-card {
+  border-radius: 20px;
+  padding: 18px;
+}
+.cookie-actions button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 14px;
+  font-weight: 800;
+}

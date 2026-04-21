@@ -1,0 +1,39 @@
+
+:root {
+  --font-body: "SiteBody", "Segoe UI", Arial, sans-serif;
+  --font-heading: "SiteHeading", Georgia, "Times New Roman", serif;
+  --font-accent: "SiteHeading", "Segoe UI", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "SiteBody";
+  src: url("../fonts/sitebody-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SiteBody";
+  src: url("../fonts/sitebody-500.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SiteHeading";
+  src: url("../fonts/siteheading-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SiteHeading";
+  src: url("../fonts/siteheading-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
