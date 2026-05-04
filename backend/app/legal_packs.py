@@ -6,7 +6,11 @@ from typing import Any
 from .catalog import GEO_PACKS, LOCALE_PACKS
 from .schemas import CompanyProfile, LegalPack
 
-EU_GEOS = {"DE", "FR", "ES", "IT"}
+EU_GEOS = {
+    "AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI",
+    "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT",
+    "NL", "PL", "PT", "RO", "SE", "SI", "SK",
+}
 LEGAL_DOC_FILES = [
     "privacy-policy.php",
     "cookie-policy.php",
